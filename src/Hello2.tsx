@@ -17,7 +17,7 @@ export default function HelloWorld(){
         <span>    Add 10 number to given number {addition(5)}...............!!!</span>
 
         <button onClick={()=>{
-            alert("hi.....I am SalMan Khan");
+            alert("hi.....I am Rajneesh Chaudhary");
         }}>Submit</button>
         <button onClick={Add}>ADD</button>
         </>
