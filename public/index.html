@@ -39,5 +39,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <div id="clock-div"></div>
+    <script>
+      const clockElement = document.getElementById("clock-div");
+      const mainFunction = () => {
+        clockElement.innerHTML = `
+        <h2>Running Clock</h2>
+        <input/>
+        <span>${new Date()}</span>
+        `;
+      };
+      setInterval(mainFunction, 1000);
+    </script>
   </body>
 </html>
